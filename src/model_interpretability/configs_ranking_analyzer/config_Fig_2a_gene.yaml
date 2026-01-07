@@ -1,0 +1,13 @@
+output_dir: "PIGE_Figures/Fig2/Fig2a_b/input_data/PIGE/"
+dataset_name: "gdsc0_true_test"
+knockout_target: "gene"
+relevant_entities_file: "src/model_interpretability/relevant_entities/relevant_genes.json"
+analysis_output_file: "ranking_analysis_results.csv"
+importance_method: "raw_causal"
+aac_column: "actual_aac"
+normalize_by_size: false
+run_all: false
+print_top_n_entities: 20
+print_by_cell_line_type: false
+print_random_sample_cell_lines: 0
+save_top_20_to_csv: true

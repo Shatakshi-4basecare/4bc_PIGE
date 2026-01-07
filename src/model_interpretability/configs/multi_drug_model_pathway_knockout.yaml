@@ -1,0 +1,29 @@
+# Multi-Drug Pathway Knockout Configuration
+# Cross-drug analysis with pathway-level knockouts
+
+output_dir: "29-12-2025_quick_test/"
+model_path: "data/output_data/pige_pipeline/pige_pipeline_20260105_145753/run_fixed_params_seed_42/all_epoch_checkpoints/fold_1/fold1_epoch2_model.pth"
+
+gmt_file: "data/input_data/all_pathway_genesets.gmt"
+pathway_interaction_graph_file: "data/intermediate_data/all_pathway_interaction_graph.pkl"
+smiles_file: "data/input_data/drugs_to_process.csv"
+npvae_embeddings_file: "data/input_data/npvae_drug_embeddings.pkl"
+rna_expression_file: "data/input_data/OmicsExpressionProteinCodingGenesTPMLogp1BatchCorrected.csv"
+rna_map_cache_file: "data/input_data/OmicsExpressionProteinCodingGenesTPMLogp1BatchCorrected.csv.min_map.pkl"
+
+genomic_lookups_dir: "data/intermediate_data/genomic_lookups/"
+ctrpv2_drug_response_dir: "data/intermediate_data/CTRPv2_drug_response_data/"
+gdsc0_drug_response_dir: "data/intermediate_data/GDSC0_drug_response_data/"
+# global_genomic_lookup_file: "baseline_cell_lines/intermediate_data/genomic_lookups/ctrp_AllCellLines.pkl"
+
+datasets_to_process:
+  - "gdsc0_true_test"
+
+drugs_to_process: ["Erlotinib"]
+
+knockout_target: "pathway"
+model_file_path: "data/input_data/Model.csv"
+sample_n_cell_lines: null
+use_top_bottom_n_cell_lines: 20
+
+relevant_entities_file: "src/model_interpretability/relevant_entities/relevant_pathways.json"

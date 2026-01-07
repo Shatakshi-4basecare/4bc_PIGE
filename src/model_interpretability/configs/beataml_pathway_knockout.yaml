@@ -1,0 +1,59 @@
+# BeatAML Pathway Knockout Configuration
+# BeatAML dataset with pathway-level knockouts
+
+output_dir: "17-12-2025_scm_multi_drug_beataml4/"
+model_path: "data/output_data/fold1_epoch27_model.pth"
+
+gmt_file: "BEATAML4/input_data/all_pathway_genesets.gmt"
+pathway_interaction_graph_file: "BEATAML4/intermediate_data/all_pathway_interaction_graph.pkl"
+smiles_file: "BEATAML4/input_data/drugs_to_process.csv"
+npvae_embeddings_file: "BEATAML4/input_data/npvae_drug_embeddings.pkl"
+rna_expression_file: "BEATAML4/input_data/OmicsExpressionProteinCodingGenesTPMLogp1BatchCorrected.csv"
+rna_map_cache_file: "BEATAML4/input_data/OmicsExpressionProteinCodingGenesTPMLogp1BatchCorrected.csv.min_map.pkl"
+
+genomic_lookups_dir: "BEATAML4/intermediate_data/genomic_lookups/"
+ctrpv2_drug_response_dir: "BEATAML4/intermediate_data/CTRPv2_drug_response_data/"
+gdsc0_drug_response_dir: "BEATAML4/intermediate_data/GDSC0_drug_response_data/"
+# global_genomic_lookup_file: "BEATAML4/intermediate_data/genomic_lookups/beataml_AllCellLines.pkl"
+
+datasets_to_process:
+  - "ctrpv2"
+
+drugs_to_process: []
+
+knockout_target: "double_pathway"
+model_file_path: "BEATAML4/input_data/Model.csv"
+sample_n_cell_lines: null
+use_top_bottom_n_cell_lines: 20
+
+relevant_entities_file: "src/model_interpretability/relevant_entities/relevant_pathways.json"
+
+# Drug name mapping for BeatAML dataset
+drug_name_mapping:
+  Nutlin_3: Nutlin_3a
+  Abt_737: ABT_737
+  At_7519: AT_7519
+  Bi_2536: BI_2536
+  Bms_345541: BMS_345541
+  Chir_99021: CHIR_99021
+  Ci_1040: CI_1040
+  Gdc_0879: GDC_0879
+  Gsk_1838705A: GSK_1838705A
+  Gsk_1904529A: GSK_1904529A
+  Gw_2580: GW_2580
+  Jnj_28312141: JNJ_28312141
+  Jnj_38877605: JNJ_38877605
+  Jnj_7706621: JNJ_7706621
+  Ku_55933: KU_55933
+  Kw_2449: KW_2449
+  Mgcd_265: MGCD_265
+  Mk_2206: MK_2206
+  Nsc_74859: NSC_74859
+  Nvp_ADW742: NVP_ADW742
+  Pht_427: PHT_427
+  Pi_103: PI_103
+  Plx_4720: PLX_4720
+  Sb_431542: SB_431542
+  Sns_032: SNS_032
+  Tg100_115: TG100_115
+  Xav_939: XAV_939

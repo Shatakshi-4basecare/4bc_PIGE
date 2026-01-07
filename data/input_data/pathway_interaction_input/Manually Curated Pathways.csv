@@ -1,0 +1,305 @@
+﻿Pathway Name,Genes,Edges,Final Decision,Rationale Summary
+positive regulation of p38MAPK cascade,11,7,Keep,Tier 1: Core stress-signaling pathway relevant to cancer and drug response.
+negative regulation of non-canonical NF-kappaB signal transduction,15,1,Keep,"Tier 1: Core ""Hallmark of Cancer"" pathway."
+positive regulation of non-canonical NF-kappaB signal transduction,16,2,Keep,"Tier 1: Core ""Hallmark of Cancer"" pathway."
+regulation of signal transduction by p53 class mediator,17,35,Keep,Tier 1: Central tumor suppressor pathway; high connectivity is justified by its biological role as a hub.
+positive regulation of amyloid-beta formation,10,8,Remove,Tier 3: Confusing disease-specific term (Alzheimer's); better to rely on core proteostasis pathway terms.
+negative regulation of extrinsic apoptotic signaling pathway via death domain receptors,11,14,Keep,"Tier 1: Core ""Hallmark of Cancer"" (apoptosis evasion)."
+negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway,10,2,Keep,Tier 1: Core mechanism linking cellular stress to apoptosis; highly relevant to drug action.
+positive regulation of miRNA transcription,18,85,Keep,Tier 1: Core cancer process; high connectivity is justified by the widespread regulatory role of miRNAs.
+positive regulation of protein localization to plasma membrane,23,24,Keep,"Tier 2: Established biological process critical for oncoprotein function; excellent ""Discovery"" candidate."
+negative regulation of TORC1 signaling,14,30,Keep,Tier 1: Core cancer/pharmacology pathway (mTOR signaling).
+positive regulation of TORC1 signaling,19,1,Keep,Tier 1: Core cancer/pharmacology pathway (mTOR signaling).
+cellular response to amyloid-beta,15,31,Remove,Tier 3: Confusing disease-specific term with high connectivity but weak justification in a pan-cancer model.
+positive regulation of double-strand break repair via homologous recombination,19,5,Keep,"Tier 1: Core ""Hallmark of Cancer"" (genome instability) and key drug target (PARP inhibitors)."
+amyloid fibril formation,10,9,Remove,Tier 3: Confusing disease-specific term; better to use general protein aggregation/stress terms.
+negative regulation of G1/S transition of mitotic cell cycle,14,21,Keep,"Tier 1: Core ""Hallmark of Cancer"" (cell cycle) and direct drug target."
+negative regulation of endothelial cell apoptotic process,14,3,Keep,"Tier 1: Directly related to a ""Hallmark of Cancer"" (angiogenesis)."
+positive regulation of reactive oxygen species metabolic process,16,23,Keep,Tier 1: Core cellular stress process central to cancer biology and chemotherapy response.
+negative regulation of anoikis,11,22,Keep,"Tier 1: Directly related to a ""Hallmark of Cancer"" (metastasis)."
+negative regulation of extrinsic apoptotic signaling pathway in absence of ligand,11,16,Keep,"Tier 1: Specific, important mechanism of apoptosis regulation relevant to cancer survival."
+positive regulation of intrinsic apoptotic signaling pathway,14,30,Keep,"Tier 1: Core ""Hallmark of Cancer"" (apoptosis evasion)."
+semaphorin-plexin signaling pathway,10,10,Keep,Tier 1: Established roles in angiogenesis and tumor invasion.
+cellular response to transforming growth factor beta stimulus,13,2,Keep,"Tier 1: Core ""Hallmark of Cancer"" signaling pathway."
+cellular response to BMP stimulus,10,23,Keep,Tier 1: Part of the TGF-beta superfamily with key roles in cancer progression.
+positive regulation of protein serine/threonine kinase activity,11,3,Keep,"Tier 1: Small size makes it specific, not general. Highly relevant as kinases are primary drug targets."
+protein localization to plasma membrane,52,22,Keep,"Tier 2: Fundamental process for oncoprotein function. Excellent ""Discovery"" candidate."
+positive regulation of neutrophil chemotaxis,10,1,Keep,"Tier 2: Represents chemokine secretion by cancer cells, a key TME-shaping process."
+negative regulation of canonical Wnt signaling pathway,52,63,Keep,"Tier 1: Core ""Hallmark of Cancer"" pathway. Large size is biologically justified."
+positive regulation of release of cytochrome c from mitochondria,10,40,Keep,"Tier 1: Critical, highly-connected event in apoptosis. High edge count is justified."
+positive regulation of canonical Wnt signaling pathway,32,17,Keep,"Tier 1: Core ""Hallmark of Cancer"" pathway."
+positive regulation of wound healing,11,3,Keep,"Tier 2: Captures the ""tumor as a wound"" concept. Small size makes it a low-risk ""Discovery"" candidate."
+mitotic spindle assembly,16,2,Keep,Tier 1: Core cell cycle process and direct target of major chemotherapies.
+positive regulation of protein targeting to membrane,10,5,Keep,"Tier 2: A specific subset of the larger membrane localization process. Good ""Discovery"" candidate."
+cellular senescence,18,135,Keep,Tier 1: Core tumor suppression mechanism. High connectivity is justified by its role as a key signaling hub.
+energy homeostasis,16,9,Keep,"Tier 2: ""Hallmark of Cancer"" (metabolism). Excellent ""Discovery"" candidate."
+execution phase of apoptosis,13,20,Keep,"Tier 1: Core ""Hallmark of Cancer"" process."
+cellular response to virus,16,4,Keep,"Tier 2: Relevant due to the ""viral mimicry"" response to therapy-induced DNA damage."
+positive regulation of cold-induced thermogenesis,45,24,Remove,Tier 4: Irrelevant context for in vitro cancer cell lines. Large gene set constitutes significant noise.
+negative regulation of cold-induced thermogenesis,23,8,Remove,Tier 4: Irrelevant context for in vitro cancer cell lines. Large gene set constitutes significant noise.
+antiviral innate immune response,20,1,Keep,"Tier 2: Mechanistically describes the ""viral mimicry"" response (e.g., cGAS-STING), which is highly relevant."
+positive regulation of substrate adhesion-dependent cell spreading,13,1,Keep,Tier 2: Key process in cell migration and metastasis.
+pyroptotic inflammatory response,13,8,Keep,Tier 1: An increasingly important inflammatory cell death mechanism in cancer.
+cellular response to hydrogen peroxide,17,3,Keep,"Tier 1: Core response to oxidative stress, a key mechanism of chemotherapy."
+ERK1 and ERK2 cascade,12,82,Keep,Tier 1: Absolutely core oncogenic pathway. High connectivity is a defining feature of its hub status.
+negative regulation of ERK1 and ERK2 cascade,25,22,Keep,Tier 1: Essential regulatory arm of a core pathway.
+positive regulation of ERK1 and ERK2 cascade,65,142,Keep,Tier 1: Large size/connectivity is justified by ERK's role as a central integrator of myriad upstream signals.
+interleukin-1-mediated signaling pathway,15,31,Keep,Tier 1: Core inflammatory signaling pathway in cancer.
+regulation of microtubule cytoskeleton organization,12,18,Keep,"Tier 1: Core cell process and direct target of major chemotherapies (taxanes, etc.)."
+protein K63-linked ubiquitination,24,1,Keep,"Tier 1: Specific, non-degradative signaling function crucial for DNA damage and NF-kB pathways."
+protein K48-linked ubiquitination,50,2,Keep,Tier 1: Core mechanism for protein degradation via proteasome; large size is justified.
+cellular response to lipopolysaccharide,35,18,Keep,"Tier 2: Represents innate immune signaling capacity (TLR4) in cancer cells. Excellent ""Discovery"" candidate."
+cellular response to mechanical stimulus,21,45,Keep,"Tier 2: Represents mechanotransduction, a key emerging area in cancer progression. Perfect ""Discovery"" pathway."
+cellular response to retinoic acid,21,31,Keep,Tier 1: Relevant to differentiation therapy and has known anti-cancer effects.
+cellular response to type II interferon,14,1,Keep,Tier 1: Core immuno-oncology pathway (IFN-gamma signaling).
+cellular response to interleukin-1,20,14,Keep,Tier 1: Core inflammatory signaling pathway in cancer.
+cellular response to tumor necrosis factor,24,3,Keep,Tier 1: Core inflammatory cytokine with dual pro/anti-tumor roles.
+cellular response to epidermal growth factor stimulus,14,11,Keep,Tier 1: Canonical oncogenic signaling pathway and major drug target.
+cellular response to estradiol stimulus,10,9,Keep,"Tier 1: Core pathway for hormone-driven cancers (e.g., breast cancer)."
+cellular response to hypoxia,25,70,Keep,"Tier 1: Core ""Hallmark of Cancer."" High connectivity is justified by its role as a master regulator."
+cellular response to xenobiotic stimulus,10,14,Keep,Tier 1: Represents drug metabolism and detoxification; essential for pharmacology.
+cellular response to gamma radiation,10,49,Keep,Tier 1: Direct response to a major cancer therapy modality. High connectivity is expected.
+positive regulation of filopodium assembly,10,1,Keep,Tier 1: Core mechanistic component of cell migration and metastasis.
+positive regulation of stress fiber assembly,15,10,Keep,Tier 1: Core mechanistic component of cell migration and metastasis.
+proteolysis involved in protein catabolic process,10,5,Keep,"Tier 1: Core proteostasis pathway, relevant to drug-induced stress."
+protein autoubiquitination,29,3,Keep,Tier 1: Core protein regulation mechanism essential for oncoprotein/tumor suppressor turnover.
+regulation of mitochondrial membrane potential,15,23,Keep,Tier 1: Critical control point for intrinsic apoptosis.
+regulation of focal adhesion assembly,10,11,Keep,"Tier 1: Core process in cell adhesion, migration, and metastasis."
+positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,66,111,Keep,Tier 1: Core oncogenic pathway. Very large size/connectivity is justified by its central hub role.
+negative regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,27,11,Keep,Tier 1: Essential regulatory arm of a core pathway.
+roof of mouth development,13,2,Remove,Tier 4: Irrelevant embryonic development process. Clear noise.
+cardiac muscle contraction,19,2,Remove,Tier 4: Irrelevant specialized physiological process. Clear noise.
+canonical Wnt signaling pathway,16,22,Keep,"Tier 1: Core ""Hallmark of Cancer"" pathway."
+long-term synaptic potentiation,12,4,Remove,Tier 4: Irrelevant specialized nervous system function. Clear noise.
+type I interferon-mediated signaling pathway,10,3,Keep,Tier 1: Key immuno-oncology and therapy-response pathway (viral mimicry).
+positive regulation of SMAD protein signal transduction,19,46,Keep,Tier 1: Core downstream effector of TGF-beta signaling. High connectivity is justified.
+ventricular septum morphogenesis,11,16,Remove,Tier 4: Irrelevant embryonic development process. Clear noise.
+negative regulation of androgen receptor signaling pathway,10,3,Keep,Tier 1: Core pathway in prostate cancer and therapy.
+chaperone-mediated protein folding,14,2,Keep,"Tier 1: Core proteostasis pathway, essential for managing oncogenic stress."
+antimicrobial humoral immune response mediated by antimicrobial peptide,44,2,Keep,"Tier 2: Plausible role in cancer via local inflammation/proliferation. Good ""Discovery"" candidate."
+neuron cellular homeostasis,11,1,Remove,Tier 4: Irrelevant specialized nervous system function. Clear noise.
+intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress,11,20,Keep,Tier 1: Core mechanism linking cellular stress (a therapeutic target) to apoptosis.
+positive regulation of JNK cascade,32,9,Keep,Tier 1: Core stress-activated signaling pathway relevant to apoptosis and chemotherapy response.
+positive regulation of receptor signaling pathway via JAK-STAT,11,6,Keep,"Tier 1: Core cytokine signaling pathway, frequently dysregulated in cancer and a direct drug target."
+negative regulation of insulin receptor signaling pathway,12,8,Keep,Tier 1: Core metabolic/growth pathway tightly linked to cancer signaling (PI3K/AKT).
+symbiont entry into host cell,14,4,Remove,Tier 4: Irrelevant biological context (host-pathogen interaction). Clear noise.
+protein autophosphorylation,50,118,Keep,Tier 1: Core activation mechanism for kinases. High size/connectivity is justified by its central role.
+ephrin receptor signaling pathway,22,27,Keep,"Tier 1: Important pathway in cell-cell communication, migration, and metastasis."
+positive regulation of fibroblast proliferation,12,5,Keep,"Tier 2: Represents cancer cell's ability to secrete growth factors to build its TME. ""Discovery"" candidate."
+positive regulation of smooth muscle cell proliferation,13,3,Keep,"Tier 2: Represents cancer cell's ability to shape its TME (e.g., vasculature). ""Discovery"" candidate."
+stem cell differentiation,13,3,Keep,"Tier 2: High relevance to the Cancer Stem Cell concept. Excellent ""Discovery"" candidate."
+negative regulation of inflammatory response,39,8,Keep,"Tier 1: Inflammation is a ""Hallmark of Cancer."" This is a core regulatory process."
+positive regulation of inflammatory response,33,2,Keep,"Tier 1: Inflammation is a ""Hallmark of Cancer."" This is a core regulatory process."
+positive regulation of phagocytosis,14,2,Keep,"Tier 2: Plausible role in drug uptake (ADCs) and cell clearance. ""Discovery"" candidate."
+protein stabilization,97,123,Keep,"Tier 1: Core process (""chaperone addiction"") critical for cancer cell survival. High size is justified."
+defense response to Gram-negative bacterium,30,1,Keep,"Tier 2: Represents innate immune signaling capacity in cancer cells. ""Discovery"" candidate."
+defense response to Gram-positive bacterium,33,1,Keep,"Tier 2: Represents innate immune signaling capacity in cancer cells. ""Discovery"" candidate."
+T cell receptor signaling pathway,27,4,Keep,Tier 2: Genes are ectopically expressed and functional in solid tumors. Kept for discovery.
+B cell receptor signaling pathway,12,1,Keep,Tier 2: Genes are ectopically expressed and functional in solid tumors. Kept for discovery.
+positive chemotaxis,10,3,Keep,Tier 1: Fundamental process underlying cancer metastasis.
+regulation of small GTPase mediated signal transduction,39,24,Keep,"Tier 1: Core signaling concept covering essential oncogenic families (Ras, Rho, etc.)."
+positive regulation of NF-kappaB transcription factor activity,31,12,Keep,"Tier 1: Core ""Hallmark of Cancer"" pathway."
+negative regulation of fat cell differentiation,10,3,Remove,Tier 4: Irrelevant specialized differentiation program for a pan-cancer model. Clear noise.
+positive regulation of fat cell differentiation,15,1,Remove,Tier 4: Irrelevant specialized differentiation program. Clear noise.
+positive regulation of erythrocyte differentiation,11,13,Remove,Tier 4: Irrelevant specialized differentiation program. Clear noise.
+positive regulation of neuron differentiation,19,6,Remove,Tier 4: Irrelevant specialized differentiation program. Clear noise.
+negative regulation of osteoblast differentiation,17,29,Remove,"Tier 3: Better to rely on core signaling pathways (Wnt, BMP) that cause this effect in the TME."
+positive regulation of osteoblast differentiation,19,30,Remove,"Tier 3: Better to rely on core signaling pathways (Wnt, BMP) that cause this effect in the TME."
+positive regulation of translation,20,2,Keep,"Tier 1: Core process upregulated in cancer to support growth, controlled by mTOR."
+positive regulation of protein catabolic process,26,84,Keep,"Tier 1: Core survival process (autophagy, etc.). High connectivity is justified by its central role."
+negative regulation of Notch signaling pathway,13,3,Keep,Tier 1: Core cancer/developmental signaling pathway.
+positive regulation of angiogenesis,43,31,Keep,"Tier 1: Core ""Hallmark of Cancer."" Large size is justified."
+positive regulation of cell adhesion,19,15,Keep,Tier 1: Core process related to metastasis and EMT.
+negative regulation of cell cycle,19,10,Keep,"Tier 1: Core ""Hallmark of Cancer."""
+positive regulation of cell cycle,12,3,Keep,"Tier 1: Core ""Hallmark of Cancer."""
+transcription initiation-coupled chromatin remodeling,19,21,Keep,"Tier 1: Core epigenetic mechanism, a ""Hallmark of Cancer."""
+positive regulation of glycolytic process,11,10,Keep,"Tier 1: Core metabolic ""Hallmark of Cancer"" (Warburg effect)."
+positive regulation of mitotic nuclear division,12,7,Keep,Tier 1: Core process of cell proliferation.
+negative regulation of smoothened signaling pathway,11,1,Keep,Tier 1: Core cancer pathway (Hedgehog signaling).
+regulation of embryonic development,10,13,Remove,"Tier 3: Too general and non-specific. Better to use defined developmental pathways (Wnt, Notch, etc.)."
+positive regulation of D-glucose import,15,20,Keep,Tier 1: Key component of reprogrammed cancer metabolism.
+negative regulation of JNK cascade,14,2,Keep,Tier 1: Core stress signaling pathway relevant to drug response.
+endodermal cell differentiation,16,3,Remove,Tier 4: Irrelevant specialized differentiation program. Clear noise.
+Fc-gamma receptor signaling pathway...,10,4,Remove,"Tier 3: Confusing term; describes an immune cell process, not a general cancer cell one."
+wound healing,21,13,Keep,"Tier 2: ""Tumor as a wound"" is a key cancer concept. Good ""Discovery"" candidate."
+positive regulation of T cell proliferation,18,2,Keep,Tier 2: Represents the cancer cell's immunomodulatory output. Kept for discovery.
+T cell activation,15,4,Keep,Tier 2: Represents the cancer cell's immunomodulatory output. Kept for discovery.
+cellular response to glucose starvation,19,41,Keep,Tier 1: Core survival response in the nutrient-poor tumor environment. High connectivity is justified.
+negative regulation of protein catabolic process,17,2,Keep,Tier 2: Core homeostatic process relevant to autophagy and drug response.
+positive regulation of protein import into nucleus,14,2,Keep,"Tier 2: Fundamental process for transcription factor function. ""Discovery"" candidate."
+odontogenesis,10,2,Remove,Tier 4: Tooth development. Clear noise.
+positive regulation of tyrosine phosphorylation of STAT protein,11,2,Keep,Tier 1: Core mechanistic step in the cancer-relevant JAK-STAT pathway.
+glucose homeostasis,37,28,Keep,"Tier 2: Key ""Discovery"" candidate related to metabolic reprogramming."
+cholesterol homeostasis,30,2,Keep,"Tier 2: Key ""Discovery"" candidate relevant to membrane/lipid synthesis for proliferation."
+regulation of circadian rhythm,27,125,Keep,"Tier 2: High-impact ""Discovery"" pathway. High connectivity is justified by its master-regulatory role."
+positive regulation of canonical NF-kappaB signal transduction,59,36,Keep,"Tier 1: Core ""Hallmark of Cancer"" pathway. Large size is justified."
+negative regulation of canonical NF-kappaB signal transduction,31,18,Keep,"Tier 1: Core ""Hallmark of Cancer"" pathway."
+phosphatidylinositol 3-kinase/protein kinase B signal transduction,13,45,Keep,Tier 1: Core oncogenic pathway. High connectivity is justified.
+negative regulation of neuron apoptotic process,25,15,Remove,Tier 3: Redundant/confusing context. Better to use general apoptosis terms.
+positive regulation of neuron apoptotic process,14,19,Remove,Tier 3: Redundant/confusing context. Better to use general apoptosis terms.
+endothelial cell migration,13,7,Keep,Tier 1: Represents the cancer cell's pro-angiogenic output.
+fat cell differentiation,17,7,Remove,Tier 4: Irrelevant specialized differentiation program. Clear noise.
+positive regulation of cytokinesis,16,5,Keep,"Tier 1: Core process of cell division, fundamental to cancer proliferation."
+positive regulation of chemokine production,16,3,Keep,Tier 1: Represents the cancer cell's ability to shape the tumor microenvironment (TME).
+positive regulation of interferon-beta production,12,1,Keep,"Tier 1: Key antiviral/inflammatory cytokine, relevant to innate immune responses in cancer."
+positive regulation of type II interferon production,22,4,Keep,Tier 1: Represents cancer cell's interaction with the immune system (IFN-gamma).
+positive regulation of interleukin-1 beta production,19,11,Keep,Tier 1: Core inflammatory cytokine production pathway in cancer.
+positive regulation of interleukin-6 production,31,9,Keep,Tier 1: IL-6 is a major pro-survival and pro-inflammatory cytokine in many cancers.
+positive regulation of interleukin-8 production,20,2,Keep,Tier 1: IL-8 is a major pro-angiogenic and pro-metastatic chemokine.
+positive regulation of tumor necrosis factor production,26,7,Keep,Tier 1: TNF is a master inflammatory cytokine with complex roles in cancer.
+cellular response to insulin stimulus,31,35,Keep,Tier 1: Core metabolic/growth signaling pathway.
+regulation of protein localization,31,2,Keep,"Tier 2: Fundamental biological process. Excellent ""Discovery"" candidate."
+circadian regulation of gene expression,31,31,Keep,"Tier 2: High-potential ""Discovery"" pathway with emerging links to cancer therapy (chronotherapy)."
+activin receptor signaling pathway,10,22,Keep,Tier 1: Core signaling pathway (TGF-beta superfamily) with established roles in cancer.
+regulation of actin cytoskeleton organization,32,27,Keep,Tier 1: Core process essential for cancer cell invasion and metastasis.
+tumor necrosis factor-mediated signaling pathway,14,31,Keep,Tier 1: Core signaling pathway downstream of a master inflammatory cytokine.
+cellular response to amino acid starvation,18,54,Keep,Tier 1: Core survival response. High connectivity is justified by its link to the mTORC1 hub.
+protein localization to cell surface,15,4,Keep,"Tier 2: A specific and important ""Discovery"" candidate related to oncoprotein function."
+substrate adhesion-dependent cell spreading,15,10,Keep,Tier 1: Core mechanistic process in cell migration and metastasis.
+cellular response to heat,15,1,Keep,"Tier 1: Represents the heat shock response, which is critical for cancer cell proteostasis."
+cellular response to UV,19,43,Keep,Tier 1: Core DNA Damage Response pathway. High connectivity is justified.
+positive regulation of Rho protein signal transduction,10,4,Keep,Tier 1: Core signaling pathway regulating cell motility and invasion.
+positive regulation of B cell proliferation,13,2,Keep,"Tier 2: Represents cancer cell's immunomodulatory output. ""Discovery"" candidate."
+positive regulation of microtubule polymerization,13,1,Keep,"Tier 1: Core mechanistic term related to chemotherapy MoA (taxanes, etc.)."
+cytoplasmic microtubule organization,11,1,Keep,Tier 1: Core process for cell division and target of major chemotherapies.
+SCF-dependent proteasomal ubiquitin-dependent protein catabolic process,12,1,Keep,"Tier 1: Specific, core mechanism for cell cycle control."
+neuron projection development,38,41,Remove,"Tier 4: Large, highly connected, but irrelevant context (neurodevelopment). Clear noise."
+T cell costimulation,10,3,Keep,"Tier 2: Represents cancer cell's role in the immune synapse (e.g., PD-L1). ""Discovery"" candidate."
+negative regulation of protein-containing complex assembly,12,8,Keep,"Tier 2: Fundamental biological process. Good ""Discovery"" candidate."
+positive regulation of protein-containing complex assembly,17,29,Keep,"Tier 2: Fundamental biological process. Good ""Discovery"" candidate."
+positive regulation of protein ubiquitination,27,27,Keep,Tier 1: Core regulatory process for oncoprotein/tumor suppressor stability.
+heterochromatin formation,11,3,Keep,"Tier 1: Core epigenetic mechanism (""Hallmark of Cancer"")."
+receptor internalization,18,3,Keep,Tier 1: Core pharmacological process related to drug resistance.
+killing of cells of another organism,30,1,Remove,Tier 4: Irrelevant context (host-pathogen). Large and confusing term. Clear noise.
+protein destabilization,16,11,Keep,Tier 1: Core process for turnover of key cancer-related proteins.
+lipopolysaccharide-mediated signaling pathway,10,2,Keep,"Tier 2: Represents innate immune signaling capacity in cancer cells. ""Discovery"" candidate."
+positive regulation of insulin secretion,10,1,Remove,Tier 4: Specialized physiological function (pancreatic beta-cells). Clear noise.
+negative regulation of NF-kappaB transcription factor activity,28,1,Keep,"Tier 1: Core ""Hallmark of Cancer"" pathway."
+negative regulation of telomere maintenance via telomerase,13,15,Keep,"Tier 1: Core ""Hallmark of Cancer"" (replicative immortality)."
+positive regulation of telomere maintenance via telomerase,13,13,Keep,"Tier 1: Core ""Hallmark of Cancer"" (replicative immortality)."
+negative regulation of proteasomal ubiquitin-dependent protein catabolic process,16,20,Keep,"Tier 1: Core process (proteasome system), relevant to drug targets and proteostasis."
+positive regulation of proteasomal ubiquitin-dependent protein catabolic process,28,59,Keep,Tier 1: Core process. High connectivity/size is justified by the complexity of the proteasome system.
+actin cytoskeleton organization,60,86,Keep,Tier 1: Core process for metastasis. Large size/connectivity is justified by its biological complexity.
+hemopoiesis,11,2,Remove,Tier 4: Irrelevant specialized differentiation program. Clear noise.
+regulation of endocytosis,10,1,Keep,Tier 1: Core process for signaling and nutrient uptake.
+protein catabolic process,14,8,Keep,Tier 1: Core survival process (autophagy/proteasome).
+platelet activation,15,3,Remove,Tier 4: Irrelevant physiological process of a different cell type.
+neuron differentiation,27,2,Remove,Tier 4: Irrelevant specialized differentiation program. Clear noise.
+B cell differentiation,19,10,Remove,Tier 4: Irrelevant specialized differentiation program. Clear noise.
+collagen fibril organization,16,1,Keep,"Tier 2: Represents ECM remodeling, a key aspect of TME interaction. ""Discovery"" candidate."
+erythrocyte differentiation,16,10,Remove,Tier 4: Irrelevant specialized differentiation program. Clear noise.
+macrophage differentiation,15,3,Remove,Tier 4: Irrelevant specialized differentiation program. Clear noise.
+negative regulation of ossification,12,7,Remove,Tier 3: Describes an external process; better modeled by core signaling pathways that cause it.
+negative regulation of cell growth,43,89,Keep,Tier 1: Core concept (tumor suppressors). High connectivity is justified by its central role.
+lung development,11,2,Remove,Tier 4: Irrelevant organ development process. Clear noise.
+"DNA damage response, signal transduction by p53 class mediator",23,114,Keep,Tier 1: Core cancer pathway. Extreme connectivity is justified by p53's biological role as a master hub.
+negative regulation of cell migration,47,37,Keep,"Tier 1: Core ""Hallmark of Cancer"" (metastasis) process."
+positive regulation of bone mineralization,22,27,Remove,Tier 3: Describes an external process; better modeled by core signaling pathways that cause it.
+BMP signaling pathway,19,54,Keep,Tier 1: Core cancer/developmental pathway. High connectivity is justified.
+negative regulation of transforming growth factor beta receptor signaling pathway,26,15,Keep,Tier 1: Essential regulatory arm of a core cancer pathway.
+positive regulation of BMP signaling pathway,10,7,Keep,Tier 1: Essential regulatory arm of a core cancer pathway.
+epithelial cell differentiation,24,9,Keep,"Tier 2: Highly relevant to carcinomas and EMT. Excellent ""Discovery"" candidate."
+positive regulation of autophagy,30,56,Keep,Tier 1: Core survival pathway in cancer. High connectivity is justified by its hub status.
+positive regulation of vascular endothelial growth factor production,13,5,Keep,"Tier 1: Core ""Hallmark of Cancer"" (angiogenesis) and pharmacology pathway."
+positive regulation of lamellipodium assembly,13,10,Keep,Tier 1: Core mechanistic process in cell migration and metastasis.
+positive regulation of cardiac muscle hypertrophy,10,6,Remove,Tier 4: Irrelevant specialized physiological process. Clear noise.
+positive regulation of epithelial to mesenchymal transition,16,23,Keep,"Tier 1: Core ""Hallmark of Cancer"" process."
+negative regulation of epithelial to mesenchymal transition,18,7,Keep,"Tier 1: Core ""Hallmark of Cancer"" process."
+tumor necrosis factor-mediated signaling pathway,12,1,Keep,Tier 1: Essential regulatory arm of a core inflammatory pathway.
+regulation of centrosome duplication,11,1,Keep,Tier 1: Core cell cycle process linked to genomic instability.
+positive regulation of neuron projection development,30,3,Remove,"Tier 4: Large, irrelevant neurodevelopmental process. Clear noise."
+negative regulation of neuron projection development,17,3,Remove,Tier 4: Irrelevant neurodevelopmental process. Clear noise.
+macroautophagy,25,1,Keep,"Tier 1: The core machinery of autophagy, a key cancer survival pathway."
+regulation of macroautophagy,10,9,Keep,Tier 1: Key control points for the autophagy process.
+negative regulation of angiogenesis,27,41,Keep,"Tier 1: Core ""Hallmark of Cancer"" process. High connectivity is justified."
+protein sumoylation,16,11,Keep,Tier 1: Core post-translational modification regulating key cancer proteins.
+negative regulation of translation,27,15,Keep,"Tier 1: Core tumor suppressive process, often downstream of mTOR."
+peptidyl-serine phosphorylation,17,79,Keep,Tier 1: Fundamental process of kinase signaling. High connectivity reflects its central network role.
+peptidyl-tyrosine phosphorylation,18,22,Keep,Tier 1: Fundamental process of RTK and other oncogenic kinase signaling.
+viral protein processing,10,8,Remove,Tier 4: Irrelevant context (viral life cycle). Clear noise.
+extracellular matrix disassembly,15,1,Keep,Tier 1: Core mechanism of cancer invasion and metastasis.
+lamellipodium assembly,12,4,Keep,Tier 1: Core mechanistic process in cell migration and metastasis.
+nervous system development,79,16,Remove,"Tier 4: Very large, irrelevant developmental pathway. Clear noise."
+axonogenesis,18,3,Remove,Tier 4: Irrelevant neurodevelopmental pathway. Clear noise.
+axon guidance,19,1,Remove,Tier 4: Irrelevant neurodevelopmental pathway. Clear noise.
+synapse assembly,19,1,Remove,Tier 4: Irrelevant neurodevelopmental pathway. Clear noise.
+central nervous system development,32,8,Remove,Tier 4: Irrelevant organ development pathway. Clear noise.
+brain development,54,1,Remove,"Tier 4: Very large, irrelevant developmental pathway. Clear noise."
+heart development,39,67,Remove,"Tier 4: Very large, highly connected, and completely irrelevant context. Unambiguous noise."
+muscle organ development,22,2,Remove,Tier 4: Irrelevant organ development pathway. Clear noise.
+blood coagulation,19,1,Remove,Tier 4: Irrelevant systemic physiological process. Clear noise.
+learning,17,1,Remove,Tier 4: Irrelevant cognitive function. Clear noise.
+memory,13,3,Remove,Tier 4: Irrelevant cognitive function. Clear noise.
+cell population proliferation,25,8,Keep,"Tier 1: Core ""Hallmark of Cancer."""
+insulin receptor signaling pathway,22,64,Keep,Tier 1: Core growth/metabolic pathway. High connectivity is justified.
+regulation of cell shape,32,14,Keep,Tier 1: Core process linked to metastasis.
+fibroblast growth factor receptor signaling pathway,11,14,Keep,Tier 1: Core oncogenic signaling pathway and drug target family.
+male gonad development,21,1,Remove,Tier 4: Irrelevant organ development pathway. Clear noise.
+extrinsic apoptotic signaling pathway via death domain receptors,12,15,Keep,"Tier 1: Core ""Hallmark of Cancer"" (apoptosis)."
+intrinsic apoptotic signaling pathway in response to DNA damage,10,14,Keep,Tier 1: Core mechanism linking DNA damage (therapy) to apoptosis.
+response to toxic substance,12,5,Keep,Tier 1: Directly relevant to pharmacology and drug resistance.
+negative regulation of autophagy,12,24,Keep,Tier 1: Core cancer survival pathway. High connectivity is justified by its regulatory role.
+reciprocal meiotic recombination,10,4,Remove,Tier 4: Irrelevant process (meiosis). Clear noise.
+leukocyte cell-cell adhesion,12,10,Keep,"Tier 2: Represents adhesion machinery used by cancer cells for metastasis. ""Discovery"" candidate."
+cell-matrix adhesion,25,16,Keep,Tier 1: Core process in metastasis and anoikis resistance.
+negative regulation of cell adhesion,17,5,Keep,Tier 1: Core process whose loss is key to metastasis.
+epidermal growth factor receptor signaling pathway,22,131,Keep,Tier 1: Core oncogenic pathway. Extreme connectivity is justified by its biological role as a master hub.
+transforming growth factor beta receptor signaling pathway,26,33,Keep,Tier 1: Core cancer signaling pathway.
+"G protein-coupled receptor signaling pathway, coupled to cyclic nucleotide second messenger",23,1,Keep,Tier 1: Core signaling mechanism relevant to cancer.
+phospholipase C-activating G protein-coupled receptor signaling pathway,29,2,Keep,Tier 1: Core signaling mechanism relevant to cancer.
+positive regulation of cytosolic calcium ion concentration,30,8,Keep,Tier 1: Calcium is a core second messenger in many cancer-relevant pathways.
+neuropeptide signaling pathway,12,3,Keep,"Tier 2: Key ""Discovery"" candidate for non-oncogene addictions in certain cancers."
+integrin-mediated signaling pathway,16,6,Keep,"Tier 1: Core signaling from cell-matrix adhesion, key for survival and migration."
+JNK cascade,12,6,Keep,Tier 1: Core stress-response pathway.
+cell surface receptor signaling pathway via JAK-STAT,16,11,Keep,Tier 1: Core cytokine signaling pathway.
+Ras protein signal transduction,18,64,Keep,Tier 1: Core oncogenic pathway. High connectivity is justified by its central hub status.
+Rho protein signal transduction,19,14,Keep,Tier 1: Core pathway for cytoskeleton and invasion.
+cell-cell signaling,85,42,Remove,Tier 3: Very large and too general. Redundant with more specific pathways. High noise potential.
+chemical synaptic transmission,59,57,Remove,"Tier 4: Large, highly connected, and completely irrelevant context (neuronal function). Clear noise."
+spermatogenesis,74,6,Remove,"Tier 4: Very large, irrelevant developmental process. Clear noise."
+female gamete generation,14,5,Remove,Tier 4: Irrelevant developmental process. Clear noise.
+regulation of mitotic cell cycle,14,16,Keep,"Tier 1: Core ""Hallmark of Cancer."""
+outflow tract morphogenesis,19,18,Remove,Tier 4: Irrelevant organ development process. Clear noise.
+aortic valve morphogenesis,18,18,Remove,Tier 4: Irrelevant organ development process. Clear noise.
+DNA replication,21,51,Keep,"Tier 1: Core ""Hallmark of Cancer."" High connectivity is justified by its central role in proliferation."
+base-excision repair,13,2,Keep,Tier 1: Core DNA Damage Response (DDR) pathway.
+nucleotide-excision repair,15,35,Keep,"Tier 1: Core DDR pathway, highly relevant to chemotherapy response."
+transcription initiation at RNA polymerase II promoter,19,4,Keep,"Tier 1: Fundamental mechanism of gene expression, a core cancer process."
+protein dephosphorylation,22,30,Keep,"Tier 1: The ""off-switch"" for kinase signaling. Core to cancer biology."
+protein import into nucleus,16,1,Keep,"Tier 2: Fundamental process for transcription factor function. Excellent ""Discovery"" candidate."
+intracellular calcium ion homeostasis,35,1,Keep,"Tier 2: Core homeostasis relevant to signaling. Excellent ""Discovery"" candidate."
+intracellular iron ion homeostasis,20,4,Keep,"Tier 2: Core homeostasis relevant to metabolism/ROS. Excellent ""Discovery"" candidate."
+phagocytosis,15,2,Keep,"Tier 2: Plausible role in drug uptake. Valid biological process. ""Discovery"" candidate."
+apoptotic process,79,209,Keep,"Tier 1: Core ""Hallmark."" Extreme size/connectivity is justified by its role as a master biological hub."
+humoral immune response,13,2,Remove,"Tier 4: Systemic immune process, not an intrinsic cancer cell pathway. Clear noise."
+mitochondrion organization,38,34,Keep,Tier 1: Core organelle for metabolism and apoptosis. Size is justified.
+actin filament organization,20,1,Keep,Tier 1: Core machinery for metastasis.
+Golgi organization,35,5,Keep,Tier 1: Core organelle for protein secretion/processing. Size is justified.
+mitotic spindle assembly checkpoint signaling,11,5,Keep,Tier 1: Core cell cycle checkpoint.
+mitotic G2 DNA damage checkpoint signaling,14,27,Keep,Tier 1: Core cell cycle checkpoint.
+centrosome cycle,17,4,Keep,Tier 1: Core cell cycle process linked to genomic instability.
+centriole replication,11,2,Keep,Tier 1: Core cell cycle process linked to genomic instability.
+G2/M transition of mitotic cell cycle,12,29,Keep,Tier 1: Core cell cycle checkpoint.
+negative regulation of transcription by RNA polymerase II,272,297,Remove,Tier 3: Too large and general. Adds significant noise and is better captured by specific regulatory pathways.
+establishment of mitotic spindle orientation,14,5,Keep,"Tier 1: Core process in cell division, related to genomic stability."
+mitotic cytokinesis,20,2,Keep,"Tier 1: Final, essential step of cell proliferation."
+telomere maintenance,15,5,Keep,"Tier 1: Core ""Hallmark of Cancer."""
+double-strand break repair via homologous recombination,35,39,Keep,"Tier 1: Core DNA Damage Response pathway, key to therapy. Size/connectivity is justified."
+skeletal system development,34,12,Remove,Tier 4: Irrelevant organ development process. Clear noise.
+vasculogenesis,11,1,Keep,"Tier 2: Plausible developmental pathway to be reactivated in cancer. Good ""Discovery"" candidate."
+osteoblast differentiation,17,27,Remove,"Tier 4: Consistent removal. Describes an external process, not an intrinsic cancer cell one."
+in utero embryonic development,10,3,Remove,Tier 4: Irrelevant developmental process. Clear noise.
+neuron migration,20,8,Remove,Tier 4: Irrelevant neuro-specific process. Clear noise.
+epithelial to mesenchymal transition,20,64,Keep,"Tier 1: Core ""Hallmark of Cancer."" High connectivity is justified by its master-regulator role."
+positive regulation of protein phosphorylation,26,31,Keep,"Tier 1: Core signaling concept, representing the ""on-switch"" for kinase pathways."
+positive regulation of endothelial cell proliferation,20,6,Keep,Tier 1: Represents the cancer cell's pro-angiogenic output.
+heart looping,16,2,Remove,Tier 4: Irrelevant organ development process. Clear noise.
+positive regulation of cell-matrix adhesion,11,9,Keep,Tier 1: Core process for metastasis.
+chondrocyte differentiation,13,2,Remove,Tier 4: Irrelevant specialized differentiation program. Clear noise.
+positive regulation of receptor internalization,10,5,Keep,Tier 1: Core pharmacological process related to drug resistance.
+response to ischemia,11,1,Keep,Tier 1: Core stress response to the tumor microenvironment.
+outflow tract septum morphogenesis,11,22,Remove,Tier 4: Irrelevant organ development process. Clear noise.
+autophagosome assembly,18,1,Keep,"Tier 1: Core mechanistic step in autophagy, a key cancer survival pathway."
+DNA damage checkpoint signaling,15,23,Keep,"Tier 1: Core ""Hallmark of Cancer"" (genome instability) and central to therapy response."
+regulation of cyclin-dependent protein serine/threonine kinase activity,12,16,Keep,Tier 1: Core cell cycle regulation and the direct target of a major drug class (CDK inhibitors).
+G1/S transition of mitotic cell cycle,20,64,Keep,Tier 1: Core cell cycle checkpoint. High connectivity is justified by its role as a master regulatory hub.

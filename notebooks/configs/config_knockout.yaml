@@ -1,0 +1,35 @@
+# PIGE Quick Start Knockout Analysis Configuration
+# For virtual knockout analysis in notebooks/quick_start/
+# Paths are relative to notebooks/quick_start/ directory
+
+# Output directory for knockout results
+output_dir: "../data/output_data/quickstart/interpretability"
+model_path: "../data/output_data/quickstart/"
+
+gmt_file: "../data/input_data/all_pathway_genesets.gmt"
+pathway_interaction_graph_file: "../data/intermediate_data/all_pathway_interaction_graph.pkl"
+smiles_file: "../data/input_data/drugs_to_process.csv"
+npvae_embeddings_file: "../data/input_data/npvae_drug_embeddings.pkl"
+rna_expression_file: "../data/input_data/OmicsExpressionProteinCodingGenesTPMLogp1BatchCorrected.csv"
+rna_map_cache_file: "../data/input_data/OmicsExpressionProteinCodingGenesTPMLogp1BatchCorrected.csv.min_map.pkl"
+model_file_path: "../data/input_data/Model.csv"
+
+genomic_lookups_dir: "../data/intermediate_data/genomic_lookups/"
+ctrpv2_drug_response_dir: "../data/intermediate_data/CTRPv2_drug_response_data/"
+gdsc0_drug_response_dir: "../data/intermediate_data/GDSC0_drug_response_data/"
+relevant_entities_file: "../src/model_interpretability/relevant_entities/relevant_genes.json"
+
+# Knockout settings
+knockout_target: "pathway"  # Options: "pathway", "gene", "double_pathway", "double_gene"
+use_top_bottom_n_cell_lines: 20  # Top/bottom N cell lines to analyze
+
+# Datasets to analyze
+datasets_to_process:
+  - "gdsc0_true_test"
+
+# Device
+device: "cuda"  # Use "cpu" if no GPU available
+
+# Drugs to process (can be overridden in notebook)
+drugs_to_process:
+  - "Erlotinib"

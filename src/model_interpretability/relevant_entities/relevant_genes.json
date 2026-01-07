@@ -1,0 +1,348 @@
+{
+  "5-Fluorouracil": [
+    "BAX",
+    "ADRA1A",
+    "AHCYL1"
+  ],
+  "Abt-737": [
+    "BCL2L1",
+    "FGFR2",
+    "PTEN",
+    "PIK3CA"
+  ],
+  "Adavosertib": [
+    "FBXW7",
+    "IKBKE",
+    "CSNK1A1",
+    "TAOK1"
+  ],
+  "Afatinib": [
+    "EGFR",
+    "ERBB2",
+    "UHRF1",
+    "KEAP1"
+  ],
+  "Alisertib": [
+    "FER",
+    "GRK5",
+    "CSNK2A1",
+    "LIMK1"
+  ],
+  "Alpelisib": [
+    "PIK3CA",
+    "PTEN",
+    "SGK1",
+    "PIK3R1"
+  ],
+  "Axitinib": [
+    "FLT1",
+    "KDR",
+    "FLT4",
+    "VHL"
+  ],
+  "Azd4547": [
+    "FGFR2",
+    "AKT2",
+    "AKT3",
+    "HRAS"
+  ],
+  "AZD6482": [
+    "ATM",
+    "PTEN",
+    "BRAF",
+    "PIK3CA"
+  ],
+  "AZD7762": [
+    "CHEK2",
+    "CHEK1",
+    "FBXW7",
+    "TP53"
+  ],
+  "AZD8055": [
+    "MAPKAP1",
+    "RPTOR",
+    "HRAS",
+    "PTEN"
+  ],
+  "BI-2536": [
+    "FABP3",
+    "PLK2",
+    "BRAF"
+  ],
+  "BMS-345541 free base": [
+    "CSNK1D",
+    "LIMK1",
+    "TAOK1",
+    "PRKD3"
+  ],
+  "Bms-754807": [
+    "MET",
+    "INSR",
+    "ARRB1"
+  ],
+  "Bortezomib": [
+    "PSMD11",
+    "PSMA6",
+    "PMAIP1",
+    "PRSS1"
+  ],
+  "Cediranib": [
+    "FLT1",
+    "FLT4",
+    "KDR",
+    "VHL"
+  ],
+  "Crizotinib": [
+    "MET",
+    "KEAP1",
+    "MDM2",
+    "HBEGF"
+  ],
+  "Cyclophosphamide": [
+    "TNFRSF1A",
+    "PERP",
+    "SPIDR",
+    "RAC2"
+  ],
+  "Cytarabine": [
+    "CDA",
+    "MAGEA1",
+    "NT5C2",
+    "TP73"
+  ],
+  "Dabrafenib": [
+    "BRAF",
+    "MAP2K1",
+    "CDKN2A",
+    "MAP2K5"
+  ],
+  "Dactolisib": [
+    "PIK3CA",
+    "PIK3R1",
+    "PIK3R6",
+    "PTEN"
+  ],
+  "Dasatinib": [
+    "DDR2",
+    "PDGFRA",
+    "STAT5B",
+    "BRAF"
+  ],
+  "Dinaciclib": [
+    "CDK2",
+    "CDK1",
+    "CDK5",
+    "EIF4E"
+  ],
+  "Docetaxel": [
+    "BRD4",
+    "FBXW7",
+    "XRCC1",
+    "RAF1"
+  ],
+  "Doramapimod": [
+    "MAPK13",
+    "HCK",
+    "MAPK9",
+    "MAPK10"
+  ],
+  "Entinostat": [
+    "HDAC3",
+    "HDAC2",
+    "HDAC10",
+    "HDAC7"
+  ],
+  "Erlotinib": [
+    "EGFR",
+    "DDR2",
+    "UHRF1",
+    "MET"
+  ],
+  "Foretinib": [
+    "MET",
+    "PTCH1",
+    "KDR",
+    "FLT1"
+  ],
+  "Gefitinib": [
+    "EGFR",
+    "UHRF1",
+    "ERBB2",
+    "ERBB3"
+  ],
+  "Gemcitabine": [
+    "BTRC",
+    "CDC5L",
+    "CDA",
+    "SMAD4"
+  ],
+  "Ibrutinib": [
+    "PLCG2",
+    "MYD88",
+    "BMX",
+    "EFNA1"
+  ],
+  "JQ1 compound": [
+    "FBXW7",
+    "RB1",
+    "BRD4",
+    "KMT2A"
+  ],
+  "KU-55933": [
+    "ATM",
+    "PTEN",
+    "ATRIP"
+  ],
+  "Lapatinib": [
+    "ERBB2",
+    "EGFR",
+    "EEF2K",
+    "ERBB4"
+  ],
+  "Linsitinib": [
+    "INSR",
+    "PIK3CA",
+    "ARRB1"
+  ],
+  "MK-2206": [
+    "UBE2T",
+    "AKT3",
+    "AKT2",
+    "AR"
+  ],
+  "Molibresib": [
+    "BRD4",
+    "ADIPOQ",
+    "ANKRD17"
+  ],
+  "Navitoclax": [
+    "BCL2L1",
+    "BCL2",
+    "BRAF",
+    "FGFR2"
+  ],
+  "Nelarabine": [
+    "NT5C2",
+    "ANAPC1",
+    "ANAPC11"
+  ],
+  "Nilotinib": [
+    "DDR2",
+    "DUSP2",
+    "DUSP1",
+    "NF1"
+  ],
+  "Obatoclax": [
+    "MCHR1",
+    "BCL2",
+    "BCL2L1",
+    "BRAF"
+  ],
+  "Olaparib": [
+    "PARP1",
+    "ATM",
+    "BRCA2",
+    "CHEK2"
+  ],
+  "Osi-027": [
+    "RPTOR",
+    "MAPKAP1",
+    "PTEN",
+    "PIK3CA"
+  ],
+  "Paclitaxel": [
+    "ARHGEF10",
+    "TRIM5",
+    "PDCD4",
+    "DSCAM"
+  ],
+  "Pictilisib": [
+    "PIK3CA",
+    "PTEN",
+    "PIK3R1",
+    "RB1"
+  ],
+  "PLX4720": [
+    "BRAF",
+    "GNAQ",
+    "RAC1",
+    "MAP2K1"
+  ],
+  "Ruxolitinib": [
+    "JAK2",
+    "SH2B3",
+    "PLAUR",
+    "VHL"
+  ],
+  "Selumetinib": [
+    "GNAQ",
+    "MAP2K1",
+    "GNA11",
+    "BRAF"
+  ],
+  "Sirolimus": [
+    "FKBP1A",
+    "FBXW7",
+    "TCF7L2",
+    "FLCN"
+  ],
+  "Sorafenib": [
+    "RAF1",
+    "BRAF",
+    "KDR",
+    "MAPK7"
+  ],
+  "Tamoxifen": [
+    "NCOA3",
+    "MYOD1",
+    "EDN1",
+    "ERBB2"
+  ],
+  "Temozolomide": [
+    "ATM",
+    "CDKN2A",
+    "CSF2",
+    "BRCA2"
+  ],
+  "Teniposide": [
+    "ABCC1",
+    "BCL2",
+    "ADRA1A"
+  ],
+  "Topotecan": [
+    "RB1",
+    "MDM2",
+    "PTEN",
+    "PIK3CA"
+  ],
+  "Tozasertib": [
+    "TNK1",
+    "MAP3K10",
+    "SMARCA4",
+    "SIK2"
+  ],
+  "Trametinib": [
+    "BRAF",
+    "MAP2K1",
+    "NF1",
+    "RASA1"
+  ],
+  "Venetoclax": [
+    "BCL2",
+    "MCHR1",
+    "KMT2A",
+    "ATM"
+  ],
+  "Vincristine": [
+    "SULF2",
+    "BAHD1",
+    "RAC2",
+    "CXCL12"
+  ],
+  "Vorinostat": [
+    "HDAC2",
+    "HDAC3",
+    "HDAC10",
+    "HDAC7"
+  ]
+}

@@ -1,0 +1,438 @@
+{
+    "Alpelisib": [
+        "PI3K signal transduction",
+        "regulation of PI3K signal transduction",
+        "insulin receptor signaling pathway",
+        "cellular response to insulin stimulus",
+        "glucose homeostasis"
+    ],
+    "AZD6482": [
+        "PI3K signal transduction",
+        "regulation of PI3K signal transduction",
+        "integrin-mediated signaling pathway",
+        "phospholipase C-activating G protein-coupled receptor signaling pathway",
+        "positive regulation of cytosolic calcium ion concentration"
+    ],
+    "AZD8055": [
+        "negative regulation of TORC1 signaling",
+        "negative regulation of translation",
+        "macroautophagy",
+        "positive regulation of autophagy",
+        "regulation of actin cytoskeleton organization"
+    ],
+    "Bms-754807": [
+        "insulin receptor signaling pathway",
+        "cellular response to insulin stimulus",
+        "protein autophosphorylation",
+        "peptidyl-tyrosine phosphorylation",
+        "MAPK1 and MAPK3 cascade"
+    ],
+    "Dactolisib": [
+        "PI3K signal transduction",
+        "regulation of PI3K signal transduction",
+        "negative regulation of TORC1 signaling",
+        "negative regulation of translation",
+        "positive regulation of autophagy"
+    ],
+    "Linsitinib": [
+        "insulin receptor signaling pathway",
+        "cellular response to insulin stimulus",
+        "PI3K signal transduction",
+        "MAPK1 and MAPK3 cascade",
+        "protein autophosphorylation"
+    ],
+    "MK-2206": [
+        "negative regulation of insulin receptor signaling pathway",
+        "negative regulation of TORC1 signaling",
+        "regulation of mitochondrial membrane potential",
+        "positive regulation of intrinsic apoptotic signaling pathway",
+        "negative regulation of canonical NF-kappaB signal transduction"
+    ],
+    "NVP-ADW742": [
+        "insulin receptor signaling pathway",
+        "cellular response to insulin stimulus",
+        "PI3K signal transduction",
+        "MAPK1 and MAPK3 cascade",
+        "protein autophosphorylation"
+    ],
+    "Osi-027": [
+        "negative regulation of TORC1 signaling",
+        "negative regulation of translation",
+        "macroautophagy",
+        "positive regulation of autophagy",
+        "regulation of actin cytoskeleton organization"
+    ],
+    "Pictilisib": [
+        "PI3K signal transduction",
+        "regulation of PI3K signal transduction",
+        "cellular response to epidermal growth factor stimulus",
+        "cellular response to insulin stimulus"
+    ],
+    "Sirolimus": [
+        "negative regulation of TORC1 signaling",
+        "negative regulation of translation",
+        "macroautophagy",
+        "positive regulation of autophagy",
+        "negative regulation of angiogenesis"
+    ],
+    "Axitinib": [
+        "negative regulation of angiogenesis",
+        "endothelial cell migration",
+        "PI3K signal transduction",
+        "regulation of MAPK1 and MAPK3 cascade"
+    ],
+    "Azd4547": [
+        "fibroblast growth factor receptor signaling pathway",
+        "Ras protein signal transduction",
+        "MAPK1 and MAPK3 cascade",
+        "PI3K signal transduction",
+        "epithelial to mesenchymal transition"
+    ],
+    "Cediranib": [
+        "negative regulation of angiogenesis",
+        "endothelial cell migration",
+        "PI3K signal transduction",
+        "regulation of MAPK1 and MAPK3 cascade"
+    ],
+    "Crizotinib": [
+        "Ras protein signal transduction",
+        "PI3K signal transduction",
+        "regulation of MAPK1 and MAPK3 cascade",
+        "cell surface receptor signaling pathway via JAK-STAT",
+        "epithelial to mesenchymal transition"
+    ],
+    "Dasatinib": [
+        "integrin-mediated signaling pathway",
+        "actin cytoskeleton organization",
+        "regulation of focal adhesion assembly",
+        "T cell receptor signaling pathway",
+        "peptidyl-tyrosine phosphorylation"
+    ],
+    "Foretinib": [
+        "epithelial to mesenchymal transition",
+        "negative regulation of angiogenesis",
+        "endothelial cell migration",
+        "Ras protein signal transduction",
+        "PI3K signal transduction"
+    ],
+    "Ibrutinib": [
+        "B cell receptor signaling pathway",
+        "positive regulation of NF-kappaB transcription factor activity",
+        "positive regulation of cytosolic calcium ion concentration",
+        "regulation of PI3K signal transduction",
+        "positive regulation of interleukin-6 production"
+    ],
+    "Nilotinib": [
+        "peptidyl-tyrosine phosphorylation",
+        "protein autophosphorylation",
+        "Ras protein signal transduction",
+        "PI3K signal transduction",
+        "regulation of MAPK1 and MAPK3 cascade"
+    ],
+    "Ruxolitinib": [
+        "cell surface receptor signaling pathway via JAK-STAT",
+        "positive regulation of tyrosine phosphorylation of STAT protein",
+        "positive regulation of receptor signaling pathway via JAK-STAT",
+        "type I interferon-mediated signaling pathway",
+        "cellular response to type II interferon"
+    ],
+    "Sorafenib": [
+        "Ras protein signal transduction",
+        "MAPK1 and MAPK3 cascade",
+        "peptidyl-serine phosphorylation",
+        "negative regulation of angiogenesis",
+        "endothelial cell migration"
+    ],
+    "Afatinib": [
+        "epidermal growth factor receptor signaling pathway",
+        "peptidyl-tyrosine phosphorylation",
+        "receptor internalization",
+        "Ras protein signal transduction",
+        "regulation of MAPK1 and MAPK3 cascade"
+    ],
+    "Erlotinib": [
+        "epidermal growth factor receptor signaling pathway",
+        "peptidyl-tyrosine phosphorylation",
+        "cellular response to epidermal growth factor stimulus",
+        "Ras protein signal transduction",
+        "PI3K signal transduction"
+    ],
+    "Gefitinib": [
+        "epidermal growth factor receptor signaling pathway",
+        "peptidyl-tyrosine phosphorylation",
+        "PI3K signal transduction",
+        "regulation of MAPK1 and MAPK3 cascade",
+        "receptor internalization"
+    ],
+    "Lapatinib": [
+        "epidermal growth factor receptor signaling pathway",
+        "peptidyl-tyrosine phosphorylation",
+        "Ras protein signal transduction",
+        "PI3K signal transduction",
+        "regulation of endocytosis"
+    ],
+    "Dabrafenib": [
+        "MAPK1 and MAPK3 cascade",
+        "regulation of MAPK1 and MAPK3 cascade",
+        "Ras protein signal transduction"
+    ],
+    "Doramapimod": [
+        "positive regulation of p38MAPK cascade",
+        "interleukin-1-mediated signaling pathway",
+        "tumor necrosis factor-mediated signaling pathway",
+        "positive regulation of interleukin-6 production",
+        "positive regulation of tumor necrosis factor production"
+    ],
+    "PLX4720": [
+        "MAPK1 and MAPK3 cascade",
+        "regulation of MAPK1 and MAPK3 cascade",
+        "Ras protein signal transduction",
+        "cellular senescence"
+    ],
+    "Selumetinib": [
+        "MAPK1 and MAPK3 cascade",
+        "regulation of MAPK1 and MAPK3 cascade",
+        "negative regulation of G1/S transition of mitotic cell cycle",
+        "negative regulation of cell cycle"
+    ],
+    "Trametinib": [
+        "MAPK1 and MAPK3 cascade",
+        "regulation of MAPK1 and MAPK3 cascade",
+        "negative regulation of G1/S transition of mitotic cell cycle",
+        "negative regulation of cell cycle",
+        "positive regulation of autophagy"
+    ],
+    "5-Fluorouracil": [
+        "DNA replication",
+        "negative regulation of translation",
+        "base-excision repair",
+        "\"DNA damage response, signal transduction by p53 class mediator\"",
+        "intrinsic apoptotic signaling pathway in response to DNA damage"
+    ],
+    "AZD7762": [
+        "mitotic G2 DNA damage checkpoint signaling",
+        "DNA damage checkpoint signaling",
+        "regulation of mitotic cell cycle",
+        "positive regulation of mitotic nuclear division",
+        "intrinsic apoptotic signaling pathway in response to DNA damage"
+    ],
+    "Cyclophosphamide": [
+        "double-strand break repair via homologous recombination",
+        "DNA damage checkpoint signaling",
+        "intrinsic apoptotic signaling pathway in response to DNA damage",
+        "cellular senescence"
+    ],
+    "Cytarabine": [
+        "DNA replication",
+        "DNA damage checkpoint signaling",
+        "intrinsic apoptotic signaling pathway in response to DNA damage",
+        "negative regulation of cell cycle"
+    ],
+    "Gemcitabine": [
+        "DNA replication",
+        "DNA damage checkpoint signaling",
+        "\"DNA damage response, signal transduction by p53 class mediator\"",
+        "intrinsic apoptotic signaling pathway in response to DNA damage",
+        "negative regulation of cell cycle"
+    ],
+    "KU-55933": [
+        "DNA damage checkpoint signaling",
+        "mitotic G2 DNA damage checkpoint signaling",
+        "double-strand break repair via homologous recombination",
+        "regulation of signal transduction by p53 class mediator",
+        "cellular response to gamma radiation"
+    ],
+    "Nelarabine": [
+        "DNA replication",
+        "DNA damage checkpoint signaling",
+        "\"DNA damage response, signal transduction by p53 class mediator\"",
+        "intrinsic apoptotic signaling pathway in response to DNA damage",
+        "negative regulation of cell cycle"
+    ],
+    "Olaparib": [
+        "base-excision repair",
+        "double-strand break repair via homologous recombination",
+        "DNA damage checkpoint signaling",
+        "intrinsic apoptotic signaling pathway in response to DNA damage"
+    ],
+    "Temozolomide": [
+        "base-excision repair",
+        "DNA damage checkpoint signaling",
+        "intrinsic apoptotic signaling pathway in response to DNA damage",
+        "\"DNA damage response, signal transduction by p53 class mediator\"",
+        "double-strand break repair via homologous recombination"
+    ],
+    "Teniposide": [
+        "double-strand break repair via homologous recombination",
+        "DNA damage checkpoint signaling",
+        "intrinsic apoptotic signaling pathway in response to DNA damage",
+        "positive regulation of release of cytochrome c from mitochondria",
+        "execution phase of apoptosis"
+    ],
+    "Topotecan": [
+        "double-strand break repair via homologous recombination",
+        "DNA damage checkpoint signaling",
+        "DNA replication",
+        "intrinsic apoptotic signaling pathway in response to DNA damage",
+        "mitotic G2 DNA damage checkpoint signaling"
+    ],
+    "Unii-40E3azg1MX": [
+        "insulin receptor signaling pathway",
+        "PI3K signal transduction",
+        "MAPK1 and MAPK3 cascade",
+        "Ras protein signal transduction",
+        "cell population proliferation"
+    ],
+    "Adavosertib": [
+        "mitotic G2 DNA damage checkpoint signaling",
+        "G2/M transition of mitotic cell cycle",
+        "\"DNA damage response, signal transduction by p53 class mediator\"",
+        "intrinsic apoptotic signaling pathway in response to DNA damage"
+    ],
+    "Alisertib": [
+        "mitotic spindle assembly",
+        "establishment of mitotic spindle orientation",
+        "mitotic spindle assembly checkpoint signaling",
+        "mitotic cytokinesis",
+        "centrosome cycle"
+    ],
+    "BI-2536": [
+        "mitotic cytokinesis",
+        "regulation of centrosome duplication",
+        "mitotic spindle assembly checkpoint signaling",
+        "G2/M transition of mitotic cell cycle",
+        "centriole replication"
+    ],
+    "Dinaciclib": [
+        "regulation of cyclin-dependent protein serine/threonine kinase activity",
+        "G1/S transition of mitotic cell cycle",
+        "G2/M transition of mitotic cell cycle",
+        "transcription initiation at RNA polymerase II promoter",
+        "DNA replication"
+    ],
+    "Pevonedistat": [
+        "SCF-dependent proteasomal ubiquitin-dependent protein catabolic process",
+        "negative regulation of proteasomal ubiquitin-dependent protein catabolic process",
+        "\"DNA damage response, signal transduction by p53 class mediator\"",
+        "intrinsic apoptotic signaling pathway in response to DNA damage",
+        "DNA replication"
+    ],
+    "Tozasertib": [
+        "mitotic spindle assembly",
+        "mitotic cytokinesis",
+        "mitotic spindle assembly checkpoint signaling",
+        "cytoplasmic microtubule organization",
+        "G2/M transition of mitotic cell cycle"
+    ],
+    "Abt-737": [
+        "positive regulation of intrinsic apoptotic signaling pathway",
+        "positive regulation of release of cytochrome c from mitochondria",
+        "apoptotic process",
+        "execution phase of apoptosis"
+    ],
+    "Navitoclax": [
+        "positive regulation of intrinsic apoptotic signaling pathway",
+        "positive regulation of release of cytochrome c from mitochondria",
+        "apoptotic process",
+        "execution phase of apoptosis"
+    ],
+    "Obatoclax": [
+        "positive regulation of autophagy",
+        "macroautophagy",
+        "autophagosome assembly",
+        "apoptotic process"
+    ],
+    "Venetoclax": [
+        "positive regulation of intrinsic apoptotic signaling pathway",
+        "positive regulation of release of cytochrome c from mitochondria",
+        "apoptotic process",
+        "execution phase of apoptosis"
+    ],
+    "Daporinad": [
+        "positive regulation of intrinsic apoptotic signaling pathway",
+        "positive regulation of autophagy",
+        "cellular response to glucose starvation",
+        "regulation of mitochondrial membrane potential"
+    ],
+    "Entinostat": [
+        "negative regulation of G1/S transition of mitotic cell cycle",
+        "negative regulation of cell growth",
+        "positive regulation of T cell proliferation"
+    ],
+    "JQ1 compound": [
+        "transcription initiation at RNA polymerase II promoter",
+        "negative regulation of G1/S transition of mitotic cell cycle",
+        "positive regulation of autophagy"
+    ],
+    "Molibresib": [
+        "transcription initiation at RNA polymerase II promoter",
+        "negative regulation of cell cycle",
+        "negative regulation of cell growth"
+    ],
+    "Vorinostat": [
+        "transcription initiation at RNA polymerase II promoter",
+        "negative regulation of cell growth",
+        "negative regulation of G1/S transition of mitotic cell cycle"
+    ],
+    "Docetaxel": [
+        "mitotic spindle assembly",
+        "mitotic spindle assembly checkpoint signaling",
+        "G2/M transition of mitotic cell cycle"
+    ],
+    "Paclitaxel": [
+        "mitotic spindle assembly",
+        "mitotic spindle assembly checkpoint signaling",
+        "G2/M transition of mitotic cell cycle",
+        "positive regulation of autophagy"
+    ],
+    "Vincristine": [
+        "mitotic spindle assembly",
+        "mitotic spindle assembly checkpoint signaling",
+        "mitotic G2 DNA damage checkpoint signaling"
+    ],
+    "BIBR-1532": [
+        "negative regulation of telomere maintenance via telomerase",
+        "cellular senescence",
+        "negative regulation of cell growth"
+    ],
+    "NSC19630": [
+        "DNA replication",
+        "DNA damage checkpoint signaling",
+        "double-strand break repair via homologous recombination",
+        "intrinsic apoptotic signaling pathway in response to DNA damage"
+    ],
+    "Telomerase Inhibitor IX": [
+        "negative regulation of telomere maintenance via telomerase",
+        "negative regulation of G1/S transition of mitotic cell cycle",
+        "cellular senescence",
+        "negative regulation of cell growth"
+    ],
+    "BMS-345541 free base": [
+        "negative regulation of NF-kappaB transcription factor activity",
+        "negative regulation of canonical NF-kappaB signal transduction",
+        "positive regulation of release of cytochrome c from mitochondria",
+        "positive regulation of intrinsic apoptotic signaling pathway"
+    ],
+    "Bortezomib": [
+        "negative regulation of proteasomal ubiquitin-dependent protein catabolic process",
+        "SCF-dependent proteasomal ubiquitin-dependent protein catabolic process",
+        "protein K48-linked ubiquitination",
+        "negative regulation of cell cycle"
+    ],
+    "PRIMA-1-Met": [
+        "\"DNA damage response, signal transduction by p53 class mediator\"",
+        "positive regulation of intrinsic apoptotic signaling pathway",
+        "positive regulation of reactive oxygen species metabolic process"
+    ],
+    "YK 4-279": [
+        "transcription initiation at RNA polymerase II promoter",
+        "negative regulation of cell growth",
+        "apoptotic process"
+    ],
+    "Tamoxifen": [
+        "cellular response to estradiol stimulus",
+        "negative regulation of cell growth",
+        "negative regulation of angiogenesis",
+        "epithelial cell differentiation"
+    ]
+}

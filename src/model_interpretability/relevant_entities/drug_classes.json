@@ -1,0 +1,96 @@
+{
+    "PI3K/AKT/mTOR Pathway Inhibitor": [
+        "Alpelisib",
+        "AZD6482",
+        "AZD8055",
+        "Bms-754807",
+        "Dactolisib",
+        "Linsitinib",
+        "MK-2206",
+        "NVP-ADW742",
+        "Osi-027",
+        "Pictilisib",
+        "Sirolimus"
+    ],
+    "Receptor Tyrosine Kinase (RTK) Inhibitor": [
+        "Axitinib",
+        "Azd4547",
+        "Cediranib",
+        "Crizotinib",
+        "Dasatinib",
+        "Foretinib",
+        "Ibrutinib",
+        "Nilotinib",
+        "Ruxolitinib",
+        "Sorafenib",
+        "Sunitinib"
+    ],
+    "EGFR Inhibitor": [
+        "Afatinib",
+        "Erlotinib",
+        "Gefitinib",
+        "Lapatinib"
+    ],
+    "MAPK Pathway Inhibitor": [
+        "Dabrafenib",
+        "Doramapimod",
+        "PLX4720",
+        "Selumetinib",
+        "Trametinib"
+    ],
+    "DNA Damage & Repair Modulator": [
+        "5-Fluorouracil",
+        "AZD7762",
+        "Cyclophosphamide",
+        "Cytarabine",
+        "Gemcitabine",
+        "KU-55933",
+        "Nelarabine",
+        "Olaparib",
+        "Temozolomide",
+        "Teniposide",
+        "Topotecan",
+        "Unii-40E3azg1MX"
+    ],
+    "Cell Cycle Inhibitor": [
+        "Adavosertib",
+        "Alisertib",
+        "BI-2536",
+        "Dinaciclib",
+        "Pevonedistat",
+        "Tozasertib"
+    ],
+    "BCL-2 Family Inhibitor": [
+        "Abt-737",
+        "Navitoclax",
+        "Obatoclax",
+        "Venetoclax"
+    ],
+    "Epigenetic Modulator": [
+        "Daporinad",
+        "Entinostat",
+        "JQ1 compound",
+        "Molibresib",
+        "Vorinostat"
+    ],
+    "Microtubule Inhibitor": [
+        "Docetaxel",
+        "Paclitaxel",
+        "Vincristine"
+    ],
+    "Telomerase Inhibitor": [
+        "BIBR-1532",
+        "NSC19630",
+        "Telomerase Inhibitor IX"
+    ],
+    "Miscellaneous Inhibitors": [
+        "BMS-345541 free base",
+        "Bortezomib",
+        "PRIMA-1-Met",
+        "YK 4-279",
+        "Tamoxifen"
+    ],
+    "MDM2 Inhibitor": [
+        "Nutlin_3a"
+    ]
+}

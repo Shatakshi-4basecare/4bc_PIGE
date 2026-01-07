@@ -1,0 +1,128 @@
+# PIGE Pipeline Configuration
+
+experiment:
+  name: "pige_pipeline"
+  run_name: null
+
+paths:
+  input_data_dir: "/home/charif/PIGE/PIGE/data/input_data"
+  intermediate_data_dir: "/home/charif/PIGE/PIGE/data/intermediate_data"
+  output_data_dir: "/home/charif/PIGE/PIGE/data/output_data"
+  drugs_to_process_file: "${paths.input_data_dir}/drugs_to_process.csv"
+  pathway_genesets_file: "${paths.input_data_dir}/all_pathway_genesets.gmt"
+  pathway_interaction_graph_file: "${paths.intermediate_data_dir}/all_pathway_interaction_graph.pkl"
+  processed_omics_data_file: "${paths.intermediate_data_dir}/omics_data.pkl"
+  ctrpv2_drug_response_dir: "${paths.intermediate_data_dir}/CTRPv2_drug_response_data"
+  gdsc0_drug_response_dir: "${paths.intermediate_data_dir}/GDSC0_drug_response_data"
+  gdsc2_drug_response_dir: "${paths.intermediate_data_dir}/GDSC2_drug_response_data"
+  genomic_lookups_dir: "${paths.intermediate_data_dir}/genomic_lookups"
+  precomputed_features_dir: "${paths.intermediate_data_dir}/precomputed_features/CTRPv2"
+  shap_output_base_dir: "${paths.output_data_dir}/shap_explanations"
+
+pathway_setup:
+  input_dir: "${paths.input_data_dir}/pathway_interaction_input"
+  output_dir: "${paths.intermediate_data_dir}"
+
+  go_obo_file: "${pathway_setup.input_dir}/go-basic.obo"
+  go_annotation_file: "${pathway_setup.input_dir}/goa_human.gaf"
+  gene_universe_file: "${pathway_setup.input_dir}/gene_universe.csv"
+
+  omnipath_cache_path: "${pathway_setup.input_dir}/omnipath_data.csv"
+
+  manual_curation_file: "${pathway_setup.input_dir}/Manually Curated Pathways.csv"
+
+  evidence_codes:
+    - EXP
+    - IDA
+    - IPI
+    - IMP
+    - IGI
+    - IEP
+    - TAS
+    - IC
+    - ISS
+
+  min_direct_annotation_size: 10
+  max_direct_annotation_size: 300
+
+  size_filter_exceptions:
+    - GO:0008150 
+    - GO:0006915 
+    - GO:0007049 
+    - GO:0007165
+
+  omnipath_datasets:
+    - phosphosite
+    - celltalk
+    - kinaseextra
+    - ligrecextra
+    - pathwayextra
+    - tf_target
+    - dorothea
+
+  omnipath_min_literature_refs: 2
+  min_crosstalk_evidence: 6
+
+drugs:
+  main_drugs:
+    - "Erlotinib"
+  leave_out_drugs: []
+
+pipeline:
+  single_drug_mode: false
+  stages:
+    pathway_setup: true
+    prep_omics_data: true
+    generate_pafe: true
+    precompute_features: true
+    train_models: true
+  resume_from_stage: pathway_setup
+
+training:
+  n_folds: 1
+  clip_grad_norm: 1.0
+  num_epochs_per_drug: 50
+  batch_size: 16
+  scheduler_patience: 7
+  scheduler_factor: 0.2
+  early_stopping_patience: 15
+  response_val_col: "aac"
+  loss_function: "mse"
+  enable_plotting: true
+  include_gdsc2_datasets: false
+  selected_omics_type: "all"
+
+model:
+  pafe_feature_dim: null
+  fp_nbits: 256
+  gnn_embedding_dim: 128
+  drug_embedding_dim: 128
+  transformer_input_dim: 256
+  transformer_nhead: 8
+  transformer_dim_ff: 1024
+  transformer_num_layers: 2
+  gnn_hidden_dim1: 512
+  gnn_heads_l1: 8
+  ann_hidden_dim1: 1024
+  ann_hidden_dim2: 512
+  scm_hidden_dim: 128
+  num_message_passing_steps: 3
+
+optuna:
+  use_optuna: false
+  predetermined_seed: 10663
+  n_optuna_trials: 25
+  top_k_models_to_evaluate: 1
+  primary_metric_name_for_selection: "GDSC0_true_test"
+  num_past_epochs_for_smoothing: 4
+  overfitting_penalty_factor: 0.25
+  fixed_hyperparameters:
+    lr: 5e-5
+    weight_decay: 0.15
+    ann_dropout: 0.4
+    gnn_dropout: 0.5
+    pos_emb_dropout: 0.15
+    transformer_dropout: 0.35
+
+runtime:
+  device: "cuda"
