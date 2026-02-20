@@ -35,7 +35,7 @@ PIGE integrates multi-omics data (mutations, copy number alterations, gene expre
 
 PIGE is based on a **biologically informed pathway interaction network** constructed from Gene Ontology (GO) biological processes and OmniPath protein-protein interactions. The architecture consists of three integrated components:
 
-![PIGE Architecture](docs/pige_architecture.png)
+![PIGE Architecture](data/input_data/pige_architecture.png)
 
 This design **mirrors biology**: each pathway's influence on a cell's response is determined by its interactions with upstream pathways, the cell's genomics, and the drug's properties.
 
