@@ -169,5 +169,5 @@ PIGE uses the following publicly available datasets:
 
 For questions, issues, or collaboration inquiries:
 
-- **Email**: cbahl076@uottawa.ca
+- **Email**: pigeinformation@gmail.com
 - **Issues**: Please open an issue on GitHub for bug reports or feature requests
