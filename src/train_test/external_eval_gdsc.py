@@ -327,9 +327,12 @@ def test_model(
     spearman_result = spearmanr(predictions_cat, all_aac_values)
     pearson_result = pearsonr(predictions_cat, all_aac_values)
 
+    spearman_r = spearman_result[0]
+    pearson_r = pearson_result[0]
+
     metrics_dict = {
-        'spearman': abs(spearman_result.correlation) if not np.isnan(spearman_result.correlation) else 0.0,
-        'pearson': abs(pearson_result.statistic) if not np.isnan(pearson_result.statistic) else 0.0
+        'spearman': abs(spearman_r) if not np.isnan(spearman_r) else 0.0,
+        'pearson': abs(pearson_r) if not np.isnan(pearson_r) else 0.0
     }
 
     predictions_vs_actual_dict = {

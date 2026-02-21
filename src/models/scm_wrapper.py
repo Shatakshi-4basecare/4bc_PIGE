@@ -1,6 +1,6 @@
 """SCM wrapper for training integration.
 
-Wraps StructuralCausalModel to be compatible with existing training pipelines.
+Wraps DPRM to be compatible with existing training pipelines.
 """
 
 from typing import Dict, List, Set, Optional
@@ -8,8 +8,8 @@ from typing import Dict, List, Set, Optional
 import torch
 import torch.nn as nn
 
-from .structural_causal_model import (
-    StructuralCausalModel,
+from .DPRM import (
+    DPRM,
     load_directed_pathway_graph_from_pickle
 )
 from .GAT_Layer import GATNetwork
@@ -17,13 +17,13 @@ from .drug_ann import DrugEmbedderANN
 
 
 class SCMModelWrapper(nn.Module):
-    """Wrapper around StructuralCausalModel for training compatibility.
+    """Wrapper around DPRM for training compatibility.
 
     Args:
-        scm: The underlying StructuralCausalModel instance.
+        scm: The underlying DPRM instance.
     """
 
-    def __init__(self, scm: StructuralCausalModel) -> None:
+    def __init__(self, scm: DPRM) -> None:
         super().__init__()
         self.scm = scm
 
@@ -215,7 +215,7 @@ def create_scm_model(
     )
 
     # Create SCM
-    scm = StructuralCausalModel(
+    scm = DPRM(
         pathway_dag=pathway_dag,
         pathway_dict=pathway_dict,
         ordered_pathway_names=ordered_pathway_names,

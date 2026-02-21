@@ -1,22 +1,4 @@
-"""Structural Causal Model for drug-pathway interactions.
-
-This module implements a causal approach to modeling how drugs affect cellular
-pathways and ultimately drug response. The key insight is that pathway interactions
-form a directed graph where each pathway's state causally depends on:
-    1. Its parent pathways in the biological hierarchy
-    2. The genomic context (mutations, CNAs, RNA)
-    3. The drug being applied
-
-WHY CAUSAL MODELING?
---------------------
-Traditional neural networks treat pathway interactions as correlations. This makes
-it hard to answer questions like "What happens if we block pathway/gene X?" because the
-model doesn't understand causality.
-
-Structural Causal Models (SCMs) explicitly model cause-and-effect relationships.
-Each pathway has a "structural equation" that defines how its state is computed
-from its causes. This enables clean causal experiments, leading to a mechanistic
-interpretation of drug action.
+"""Dynamic Pathway Response Module (DPRM) for drug-pathway interactions.
 """
 
 from typing import Dict, List, Optional, Set
@@ -63,18 +45,6 @@ def load_directed_pathway_graph_from_pickle(
 
 def compute_processing_order(graph: Dict[str, List[str]], all_nodes: List[str]) -> List[str]:
     """Compute a reasonable processing order for a directed cyclic graph.
-
-    For graphs with cycles (feedback loops), we use a heuristic ordering:
-        1. Process nodes with fewer incoming edges first (more "upstream")
-        2. Break ties by node name for reproducibility
-
-    This isn't a true topological sort (impossible with cycles), but provides
-    a reasonable upstream-to-downstream ordering for message passing.
-
-    This is distinct from pathway size (number of genes). A small pathway can be
-    downstream if it integrates many upstream signals (e.g. a transcription factor
-    regulated by multiple signaling cascades). On the other hand, a large pathway can be
-    upstream if it's a signal initiator (e.g. receptor complex with many subunits).
 
     Args:
         graph: Adjacency list representation {node: [children]}.
@@ -165,11 +135,11 @@ class PathwayStructuralEquation(nn.Module):
         return pathway_states
 
 
-class StructuralCausalModel(nn.Module):
-    """Structural Causal Model for pathway interactions.
+class DynamicPathwayResponseModule(nn.Module):
+    """Dynamic Pathway Response Module for pathway interactions.
 
     This model represents pathway interactions as a directed cyclic graph where
-    each pathway's state is causally determined by its parents, genomics, and drug.
+    each pathway's state is determined by its parents, genomic features, and drug.
 
     Args:
         pathway_dag: Adjacency list {pathway_id: [children]}.
@@ -233,15 +203,14 @@ class StructuralCausalModel(nn.Module):
         )
 
         # Pre-compute parent aggregation weights (mean pooling)
-        # parent_mask[i, j] = 1 if pathway j is a parent of pathway i
         self.register_buffer('parent_mask', torch.zeros(self.n_pathways, self.n_pathways))
-        for child_name, parent_list in pathway_dag.items():
-            if child_name in self.pathway_to_idx:
-                child_idx = self.pathway_to_idx[child_name]
-                for parent_name in parent_list:
-                    if parent_name in self.pathway_to_idx:
-                        parent_idx = self.pathway_to_idx[parent_name]
-                        self.parent_mask[child_idx, parent_idx] = 1.0
+        for a, b in pathway_dag.items():
+            if a in self.pathway_to_idx:
+                d = self.pathway_to_idx[a]
+                for c in b:
+                    if c in self.pathway_to_idx:
+                        e = self.pathway_to_idx[c]
+                        self.parent_mask[d, e] = 1.0
 
         # Normalize to get mean pooling weights
         parent_counts = self.parent_mask.sum(dim=1, keepdim=True).clamp(min=1.0)
@@ -358,7 +327,7 @@ class StructuralCausalModel(nn.Module):
         pathway_idx: int,
         intervention_value: float = 0.0
     ) -> Dict[str, float]:
-        """Compute total, direct, and indirect causal effects of a pathway.
+        """Compute total, direct, and indirect response effects of a pathway.
 
         Args:
             pafe_features: Genomic features. Shape: [n_pathways, feature_dim].
