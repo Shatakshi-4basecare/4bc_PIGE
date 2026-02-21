@@ -1,32 +1,34 @@
-# PIGE: Pathway-Informed Graph Explanation Framework for Mechanistic Interpretability
+# PIGE: Pathway-Informed Graph Explanation Framework for Drug Response Interpretability
 
 
 [![PIGE Atlas](https://img.shields.io/badge/Interactive-PIGE_Atlas-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiIGZpbGw9IiMwMDdhZmYiLz48L3N2Zz4=)](https://www.pigeatlas.com)
 
 ## Overview
 
-**PIGE** (Pathway-Informed Graph Explanation) is a deep learning framework that predicts cancer drug response by understanding the underlying biological mechanisms. PIGE allows you to answer the following questions:
+**PIGE** (Pathway-Informed Graph Explanation) is a deep learning framework that predicts anti-cancer drug response by understanding the underlying biological mechanisms. PIGE allows you to answer the following questions:
 - *Why* is this cell line sensitive or resistant to this drug?
 - *Which pathways/genes/interactions* drive the drug response or lack thereof?
 - *What happens* to drug response if we block a specific pathway/gene/interaction?
 
-### Our Approach
+Precomputed results can be explored using **Interactive PIGE Atlas**: [https://www.pigeatlas.com](https://www.pigeatlas.com)
+
+### Approach
 
 PIGE integrates multi-omics data (mutations, copy number alterations, gene expression) with drug chemical structures through a **biologically informed pathway interaction network**. The model architecture processes genomic features through this pathway graph, creating interpretable pathway-level representations. By systematically knocking out pathways and genes and measuring changes in model predictions, PIGE generates importance scores that identify influential biological mechanisms.
 
 ## Key Results
 
-- **Superior Prediction Performance and Generalizability**
+- **Improved Prediction Performance and Generalizability**
   - Spearman ρ=0.84 in 5-fold cross-validation on CTRPv2 training data
   - Spearman ρ=0.56 on external GDSC2 validation (excluding all overlapping cell line-drug pairs)
   - Outperforms DrugCell (ρ=0.52), DRPreter (ρ=0.51), and other state-of-the-art methods on external validation
 
-- **Mechanistic Interpretability**
+- **Enhanced Interpretability**
   - 74% pathway hit rate at K=25 vs 50% for CRISPR differential essentiality, 60% for GSEA, and 29% for DrugCell
   - Over 60% gene hit rate at K=100 (representing 4.8% of all genes) vs 41% for CRISPR screens
   - Recovers specific mechanisms of action including non-obvious targets (e.g. CX3CL1 as a resistance hub to chemotherapy in triple-negative breast cancer, only discovered experimentally in 2017)
 
-- **Clinical Translation**
+- **Enhanced Clinical Translation Potential**
   - Validated on BeatAML ex vivo patient samples
   - Generalizes to unseen drugs and drug classes (e.g. MDM2 inhibitors not present in training data)
   - Identifies patient-specific resistance mechanisms that suggest rational combination therapies
@@ -38,6 +40,16 @@ PIGE is based on a **biologically informed pathway interaction network** constru
 ![PIGE Architecture](data/input_data/pige_architecture.jpg)
 
 This design **mirrors biology**: each pathway's influence on a cell's response is determined by its interactions with upstream pathways, the cell's genomics, and the drug's properties.
+
+## Citation
+
+If you use PIGE in your research, please cite:
+
+[Will be added when paper is published]
+
+## Web Application
+
+- **Interactive PIGE Atlas**: [https://www.pigeatlas.com](https://www.pigeatlas.com) - Explore 45,000+ pathway graphs across 70 drugs and 800+ cell lines
 
 ---
 
@@ -140,16 +152,7 @@ PIGE uses the following publicly available datasets:
 - **Gene Ontology** - Biological process annotations (pathway definitions)
 - **OmniPath** - Protein-protein interaction network (pathway crosstalk)
 
-## Citation
 
-If you use PIGE in your research, please cite:
-
-[Will be added when paper is published]
-
-## Links
-
-- **Interactive PIGE Atlas**: [https://www.pigeatlas.com](https://www.pigeatlas.com) - Explore 45,000+ pathway graphs across 70 drugs and 800+ cell lines
-- Research Paper: [Will be added when paper is published]
 
 ## Requirements
 
