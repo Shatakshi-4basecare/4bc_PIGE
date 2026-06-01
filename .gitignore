@@ -2,4 +2,4 @@ data/intermediate_data
 data/output_data/10-17-2025_scm_per_drug_sparse_ALL_DRUGS
 __pycache__/
 lib/
-data/output_data/quickstart/
+data/output_data/quickstart/pipeline_logs/
