@@ -9,7 +9,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 from src.pipeline.pipeline_orchestrator import PipelineOrchestrator
 from src.main import resolve_config_variables
 
-# Parse incoming comma-separated string from Bash into a native Python list
+#Parse incoming comma-separated string from Bash into Python list
 raw_input = sys.argv[1]
 drugs_list = [d.strip() for d in raw_input.split(',')]
 
@@ -47,7 +47,7 @@ print("="*60)
 print(f"TRAINING MULTI-DRUG MODEL FOR: {len(drugs_list)} drug(s)")
 print(f"Drugs in this batch: {config['drugs']['main_drugs']}")
 
-# Safely extract nested parameters using .get() to prevent KeyErrors
+#Safely extract nested parameters using .get() to prevent KeyErrors
 training_cfg = config.get('training', {})
 runtime_cfg = config.get('runtime', {})
 paths_cfg = config.get('paths', {})
@@ -59,6 +59,6 @@ print("="*60 + "\n")
 
 print(f"--- Running Training for: {config['drugs']['main_drugs']} ---")
 
-# Execute Pipeline
+#Execute Pipeline
 orchestrator = PipelineOrchestrator(config)
 orchestrator.run_pipeline()

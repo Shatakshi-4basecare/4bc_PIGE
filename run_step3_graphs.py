@@ -12,7 +12,7 @@ drugs_list = [d.strip() for d in raw_input.split(',')]
 config = {
     'base_dir': str(PROJECT_ROOT / 'data/output_data/quickstart/interpretability'),
     'dataset': ['gdsc0_true_test'],
-    'drug_names': drugs_list, # Tracks all specified batch drugs dynamically
+    'drug_names': drugs_list, #Tracks all specified batch drugs dynamically
 }
 
 print(f"--- Generating Graphs for Multi-Drug Batch ---")
